@@ -41,7 +41,7 @@ exports.setServerPrefix = (s) -> SERVER_PREFIX = s;
 // The maximum time that the server will take to answer our poll
 // requests + a little grace period. Coordinated with
 // aat-server::PING_INTERVAL.
-var SERVER_PING_INTERVAL = 1000*(40+15); 
+var SERVER_PING_INTERVAL = 1000*(16+15); 
 
 // maximum number of calls to batch:
 var MAX_CALL_BATCH = 200;

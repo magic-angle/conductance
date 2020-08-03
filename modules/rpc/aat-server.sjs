@@ -32,7 +32,7 @@ var { hostenv } = require('sjs:sys');
 var { toBuffer } = require('sjs:bytes');
 
 var REAP_INTERVAL = 1000*60; // 1 minute
-var PING_INTERVAL = 1000*40; // 40 seconds
+var PING_INTERVAL = 1000*16; // 40 seconds
 
 // maximum number of return messages to batch:
 var MAX_RETURN_BATCH = 200;
